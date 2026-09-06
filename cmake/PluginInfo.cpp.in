@@ -1,0 +1,27 @@
+#include <SKSE/SKSE.h>
+
+namespace {
+    // https://github.com/ianpatt/skse64/blob/master/skse64/PluginAPI.h
+    constexpr std::uint32_t kAddressLibraryV5 = 1u << 1;
+}
+
+SKSEPluginVersion = []() constexpr {
+    SKSE::PluginVersionData info{};
+    info.PluginVersion(REL::Version{
+        @PROJECT_VERSION_MAJOR@, @PROJECT_VERSION_MINOR@,
+        @PROJECT_VERSION_PATCH@, @PROJECT_VERSION_TWEAK@ });
+    info.PluginName("@PROJECT_NAME@");
+    info.AuthorName("@AUTHOR_NAME@");
+    info.UsesAddressLibrary();
+    info.UsesNoStructs();  // CommonLib handles the differing runtime layouts.
+    info.versionIndependenceEx |= kAddressLibraryV5;
+    return info;
+}();
+
+SKSE_EXPORT bool SKSEPlugin_Query(SKSE::QueryInterface*, SKSE::PluginInfo* info)
+{
+    info->infoVersion = SKSE::PluginInfo::kVersion;
+    info->name = SKSEPlugin_Version.pluginName;
+    info->version = SKSEPlugin_Version.pluginVersion;
+    return true;
+}

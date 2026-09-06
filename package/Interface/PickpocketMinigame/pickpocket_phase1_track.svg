@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs><radialGradient id="phase1HubGrad"><stop offset="0" stop-color="#131316" stop-opacity="0.70"/><stop offset="0.72" stop-color="#0B0B0D" stop-opacity="0.80"/><stop offset="1" stop-color="#050506" stop-opacity="0.88"/></radialGradient></defs>
+<circle cx="256.0" cy="256.0" r="205.5" fill="url(#phase1HubGrad)"/>
+<circle cx="256.0" cy="256.0" r="225" fill="none" stroke="#050506" stroke-width="28" stroke-opacity="0.68"/>
+</svg>

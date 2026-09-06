@@ -1,0 +1,140 @@
+{
+  "descriptions": [
+    {
+      "plugins": [
+        "Skyrim.esm"
+      ],
+      "changes": [
+        {
+          "perk": "LightFingers00",
+          "newDescription": "Pickpocketing becomes 20% easier. Item weight and value make pickpocketing harder."
+        },
+        {
+          "perk": "LightFingers20",
+          "newDescription": "Pickpocketing becomes 40% easier. Item weight and value make pickpocketing harder."
+        },
+        {
+          "perk": "LightFingers40",
+          "newDescription": "Pickpocketing becomes 60% easier. Item weight and value make pickpocketing harder."
+        },
+        {
+          "perk": "LightFingers60",
+          "newDescription": "Pickpocketing becomes 80% easier. Item weight and value make pickpocketing harder."
+        },
+        {
+          "perk": "LightFingers80",
+          "newDescription": "Pickpocketing becomes 100% easier. Item weight and value make pickpocketing harder."
+        },
+        {
+          "perk": "NightThief",
+          "newDescription": "Pickpocketing becomes 25% easier when the target is asleep."
+        },
+        {
+          "perk": "Cutpurse",
+          "newDescription": "Pickpocketing targets carrying gold is 50% easier, and gold is revealed when you search their pockets."
+        },
+        {
+          "perk": "KeyMaster",
+          "newDescription": "Pickpocketing targets carrying keys is much easier, and keys are revealed when you search their pockets."
+        }
+      ]
+    },
+    {
+      "plugins": [
+        "Vokrii - Minimalistic Perks of Skyrim.esp"
+      ],
+      "changes": [
+        {
+          "perk": "VKR_Pic_000_PickpocketMastery_Perk_WasLightFingers1",
+          "newDescription": "Pickpocketing becomes 1% easier per level of Pickpocket."
+        },
+        {
+          "perk": "VKR_Pic_020_Cutpurse_Perk_WasCutpurse",
+          "newDescription": "Pickpocketing targets carrying gold, keys, gems, or jewelry is easier, and those items are revealed when you search their pockets."
+        },
+        {
+          "perk": "VKR_Pic_030_Oblivious_Perk_WasNightThief",
+          "newDescription": "Pickpocketing becomes 25% easier if the target is not detecting you."
+        },
+        {
+          "perk": "VKR_Pic_090_MasterThief_Perk_WasKeymaster",
+          "newDescription": "All items are revealed when you search their pockets."
+        }
+      ]
+    },
+    {
+      "plugins": [
+        "Ordinator - Perks of Skyrim.esp"
+      ],
+      "changes": [
+        {
+          "perk": "ORD_Pic00_PickpocketMastery_00_Perk_WasLightFingers",
+          "newDescription": "Pickpocketing becomes 20% easier. Carrying capacity is increased by 50 points."
+        },
+        {
+          "perk": "ORD_Pic00_PickpocketMastery_20_Perk_WasLightFingers",
+          "newDescription": "Pickpocketing becomes 40% easier. Carrying capacity is increased by 100 points."
+        },
+        {
+          "perk": "ORD_Pic30_Cutpurse_Perk_30_WasNightThief",
+          "newDescription": "Pickpocketing targets carrying gold, keys, or jewelry is easier, and those items are revealed when you search their pockets."
+        },
+        {
+          "perk": "ORD_PicDEP_Cutpurse_40_Perk_WasCutpurse_OrdASISExclude",
+          "newDescription": "Pickpocketing targets carrying gold is easier, and gold is revealed when you search their pockets."
+        },
+        {
+          "perk": "ORD_Pic60_StalkThePrey_Perk_60_OrdASISExclude",
+          "newDescription": "Preparing to pickpocket while sneaking behind a target for at least 10 seconds makes pickpocketing 20% easier."
+        }
+      ]
+    },
+    {
+      "plugins": [
+        "Adamant.esp"
+      ],
+      "changes": [
+        {
+          "perk": "MAG_Cutpurse00",
+          "newDescription": "Pickpocketing becomes 25% easier."
+        },
+        {
+          "perk": "MAG_Cutpurse25",
+          "newDescription": "Pickpocketing becomes 50% easier."
+        },
+        {
+          "perk": "MAG_Cutpurse50",
+          "newDescription": "Pickpocketing becomes 30% easier."
+        },
+        {
+          "perk": "MAG_Cutpurse75",
+          "newDescription": "Pickpocketing becomes 40% easier."
+        },
+        {
+          "perk": "MAG_Cutpurse100",
+          "newDescription": "Pickpocketing becomes 50% easier."
+        },
+        {
+          "perk": "MAG_NimbleFingers",
+          "newDescription": "Pickpocketing targets carrying gold or keys is easier, and those items are revealed when you search their pockets."
+        },
+        {
+          "perk": "MAG_PracticedThief",
+          "newDescription": "Pickpocketing targets carrying gems or jewelry is easier, and those items are revealed when you search their pockets."
+        },
+        {
+          "perk": "MAG_SleightofHand",
+          "newDescription": "Pickpocketing becomes 25% easier against targets who are not detecting you."
+        },
+        {
+          "perk": "MAG_NightThief",
+          "newDescription": "Pickpocketing becomes 25% easier at night."
+        },
+        {
+          "perk": "MAG_UnsuspectingMark",
+          "newDescription": "Pickpocketing becomes 25% easier against targets who are sleeping, sitting, or working at a crafting station."
+        }
+      ]
+    }
+  ]
+}

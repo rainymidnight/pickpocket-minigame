@@ -1,0 +1,15 @@
+{
+    "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+    "name": "pickpocket-minigame",
+    "dependencies": [
+        "directxtk",
+        "rapidcsv",
+        "spdlog"
+    ],
+    "overrides": [
+        {
+            "name": "fmt",
+            "version": "12.1.0"
+        }
+    ]
+}
